@@ -1,0 +1,86 @@
+// /**  - Fonts
+// ------------------------*/
+@font-face {
+  font-family: "Arial MT Std";
+  src: url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.eot");
+  src: url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.svg#Arial MT Std")
+      format("svg");
+}
+
+
+// /**  - Global Overrides
+// ------------------------*/
+
+.btn,
+.card,
+.card-img-top,
+.form-control,
+.form-check-input,
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
+}
+
+// /**  - Typography
+// ------------------------*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  p {
+    color: #666666;
+  }
+}
+
+.section {
+
+  &__hero {
+    background: rgb(128, 127, 128);
+
+    h1 {
+      font-family: Arial MT Std, Arial, Helvetica, sans-serif;
+    }
+
+    h1,
+    p {
+      color: #fff;
+    }
+  }
+}
+
+// /**  - Components
+// ------------------------*/
+
+// /**  - Form Overrides
+// ------------------------*/
+.form {
+  background-color: rgb(237, 237, 237);
+  
+  .btn-secondary {
+    background-color: rgb(77, 76, 77);
+    width: 50%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+      
+    
+  }
+  
+  &-group > input {
+    border: 1px solid black;
+    height: 3.5rem;
+  }
+  
+  input {
+    &[type=checkbox]{
+      border: 1px solid black;
+    }
+  }
+}
+
