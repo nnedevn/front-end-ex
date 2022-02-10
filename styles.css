@@ -1,3 +1,11 @@
+@charset "UTF-8";
+/** TABLE OF CONTENTS
+ — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — /
+1 - Fonts
+2 - Global Overrides
+3 - Typography
+4 - Form
+/// END TABLE OF CONTENTS **/
 @font-face {
   font-family: "Arial MT Std";
   src: url("//db.onlinewebfonts.com/t/7b121bb51f38c995b299d96f326e3060.eot");
